@@ -1,24 +1,15 @@
-# README
+# Ruby & the LISP Alien Tech: A Code Adventure
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repository contains the source code and resources for my presentation "Ruby & the LISP Alien Tech: A Code Adventure" at the [Friendly.rb](https://friendlyrb.com) conference. The presentation explores the intriguing blend of Ruby with LISP, particularly through the lens of Clojure, and demonstrates an experimental integration of Ruby on Rails with Clojure.
 
-Things you may want to cover:
+## What's Inside?
 
-* Ruby version
+- `Source Code`: Dive into the code where Ruby meets Clojure. See how I used JRuby to render HTML with Clojure's Hiccup library in a Rails application.
 
-* System dependencies
+## Learn More
 
-* Configuration
+For a detailed narrative of this experiment and insights from the Friendly.rb conference, check out my blog post: ["Ruby meets LISP: Unveiling Alien Tech at Friendly.rb's Lightning Talk"](https://marianposaceanu.com/articles/ruby-meets-lisp-unveiling-alien-tech-at-friendly-rb-s-lightning-talk).
 
-* Database creation
+---
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Enjoy exploring the crossroads of Ruby and LISP, and don't forget to share your thoughts and feedback!
