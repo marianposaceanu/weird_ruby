@@ -8,7 +8,9 @@ This repository contains the source code and resources for my presentation "Ruby
 
 ## Learn More
 
-For a detailed narrative of this experiment and insights from the Friendly.rb conference, check out my blog post: ["Ruby meets LISP: Unveiling Alien Tech at Friendly.rb's Lightning Talk"](https://marianposaceanu.com/articles/ruby-meets-lisp-unveiling-alien-tech-at-friendly-rb-s-lightning-talk).
+For a detailed narrative of this experiment and insights from the Friendly.rb conference:
+- check out my blog post: ["Ruby meets LISP: Unveiling Alien Tech at Friendly.rb's Lightning Talk"](https://marianposaceanu.com/articles/ruby-meets-lisp-unveiling-alien-tech-at-friendly-rb-s-lightning-talk).
+- the presentation: https://github.com/marianposaceanu/weird_ruby/blob/main/docs/lispy.pdf
 
 ---
 
