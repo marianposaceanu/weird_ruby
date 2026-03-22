@@ -35,6 +35,9 @@
 !/tmp/pids/
 !/tmp/pids/.keep
 
+# Ignore macOS AppleDouble files.
+._*
+
 # Ignore uploaded files in development.
 /storage/*
 !/storage/.keep
