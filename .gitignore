@@ -22,6 +22,7 @@
 /Procfile.dev
 /revision.log
 /REVISION
+/target/
 /vendor/bundle
 
 # Ignore all logfiles and tempfiles.
