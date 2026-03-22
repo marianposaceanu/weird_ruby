@@ -6,19 +6,18 @@ java_import 'clojure.java.api.Clojure'
 
 class CljHandler
   def call(template, _source = nil)
-    # Load the hiccup core
-    Clojure.var("clojure.core", "require").invoke(Clojure.read("hiccup.core"))
-
     # Load and refer the hiccup.core functions
     Clojure.var("clojure.core", "require").invoke(Clojure.read("hiccup.core"))
+    # Avoid prefixing method calls with hiccup in the views
     Clojure.var("clojure.core", "refer").invoke(Clojure.read("hiccup.core"))
 
-    # Get a reference to Clojure's eval function
     eval_fn = Clojure.var("clojure.core", "eval")
 
-    # Write and evaluate a Clojure expression that uses Hiccup
+    # Evaluate a Clojure expression that uses Hiccup
+    # Actually this is our .clj template
     expression = Clojure.read(template.source)
     result = eval_fn.invoke(expression)
+
     "output_buffer.safe_concat('#{result}')"
   end
 end
